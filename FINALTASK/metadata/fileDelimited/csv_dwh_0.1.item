@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_nulVwNi7Ee6G8f3jGJKA3Q" name="csv_dwh" dataPackage="_nulVwdi7Ee6G8f3jGJKA3Q" Server="Localhost 127.0.0.1" FilePath="D:/Kuliah/Rakamin/transaction_csv.csv" Encoding="windows-1252" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" LimitValue="0" FirstLineCaption="true" EscapeType="CSV" EscapeChar="&quot;'&quot;" TextEnclosure="&quot;'&quot;" CsvOption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_nulVwdi7Ee6G8f3jGJKA3Q" name="default" dataManager="_nulVwNi7Ee6G8f3jGJKA3Q">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_nulVwti7Ee6G8f3jGJKA3Q" id="_V7tKANi7Ee6G8f3jGJKA3Q" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_nulVw9i7Ee6G8f3jGJKA3Q" label="transaction_id" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_nul80Ni7Ee6G8f3jGJKA3Q" label="account_id" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_nul80di7Ee6G8f3jGJKA3Q" label="transaction_date" length="19" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_nul80ti7Ee6G8f3jGJKA3Q" label="amount" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_nul809i7Ee6G8f3jGJKA3Q" label="transaction_type" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_nul81Ni7Ee6G8f3jGJKA3Q" label="branch_id" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
